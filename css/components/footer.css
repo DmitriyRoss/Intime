@@ -1,0 +1,29 @@
+.footer-layout {
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.footer-p {
+    display: flex;
+    justify-content: flex-end;
+color: #282b2f;
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 38px;
+}
+
+.footer-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}

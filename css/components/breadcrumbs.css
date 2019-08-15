@@ -1,0 +1,35 @@
+.breadcrumb {
+    padding-left: 0;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+  }
+  .breadcrumb li::after {
+    content: '>';
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .breadcrumb li:last-child::after {
+    content: '';
+  }
+
+  .breadcrumb-item {
+    height: 11px;
+    color: #282b2f;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .breadcrumb-item-active {
+    height: 14px;
+    color: #78909c;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }

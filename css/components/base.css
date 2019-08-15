@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
+}
+
+.layout {
+  display: flex;
+  flex-basis: 100%;
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 10px 0;
+}
+
+*+p,
+*+ul,
+*+ol,
+*+figure {
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
+  margin-top: 0.67em;
+}
+
+a,
+.link {
+  text-decoration: none;
+}
+
+a:hover,
+.link:hover {
+  text-decoration: none;
+  color: red;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  display: inline-block;
+  width: 109px;
+  height: 23px;
+  color: #009688;
+  font-family: Rubik;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-left: 1px;
+  margin-top: 39px;
+  margin-bottom: 38px;
+}
+
+.logo::before {
+  content: 'In';
+  color: black;
+}

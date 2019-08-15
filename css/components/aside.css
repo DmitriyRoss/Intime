@@ -1,0 +1,18 @@
+.sidebar {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    vertical-align: top;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  
+  .aside-h2 {
+    color: #282b2f;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+  }
+  

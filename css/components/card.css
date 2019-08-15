@@ -1,0 +1,38 @@
+.card {
+    margin-bottom: 60px;
+  }
+  
+  .card-heading {
+    color: #282b2f;
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  
+  .card-time {
+    color: #bdc6ca;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  .card-description {
+    color: #455a63;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  
+  .card-link {
+    margin-top: 35px;
+    color: #009688;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: underline;
+  }
+  

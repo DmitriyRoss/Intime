@@ -1,0 +1,21 @@
+Header+nav {
+    1h20min
+}
+
+breadcrumbs {
+    20min
+}
+
+Весь article без таблицы {
+    55min
+}
+
+Таблица {
+   30 min
+}
+
+footer, sidebar {
+1h
+}
+
+Всего: 4h 05min
